@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>古树名木复壮跟踪系统</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar no-print">
+    <div class="topbar-inner">
+      <a class="brand" href="#/dashboard">
+        <span class="brand-mark">🌳</span>
+        <span class="brand-text">
+          <strong>古树名木复壮跟踪系统</strong>
+          <small>按株建档 · 体检诊断 · 复壮措施 · 两年存活跟踪</small>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#/dashboard" data-route="dashboard">仪表盘</a>
+        <a href="#/trees" data-route="trees">古树档案</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <!-- 通用弹窗 -->
+  <div id="modal-root"></div>
+  <div id="toast-root" class="no-print"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

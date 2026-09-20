@@ -1,0 +1,20 @@
+{
+  "name": "ancient-tree-rejuvenation-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "古树名木复壮跟踪系统：按株建档、记录体检结论与复壮措施、连续跟踪两年存活情况",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs",
+    "test": "node --test",
+    "seed": "node scripts/reset-db.mjs",
+    "seed:force": "node scripts/reset-db.mjs --force"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.14.5"
+  }
+}
